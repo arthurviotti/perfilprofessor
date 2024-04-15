@@ -15,7 +15,7 @@ namespace perfilprofessor.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index" , "Professores");
         }
 
         public IActionResult Privacy()

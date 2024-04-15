@@ -8,5 +8,8 @@ namespace perfilprofessor.Models
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Professor> Professores { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
+
     }
 }

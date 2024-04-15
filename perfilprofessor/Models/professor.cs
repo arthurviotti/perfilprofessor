@@ -13,9 +13,11 @@ namespace perfilprofessor.Models
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o Nome de usuário!")]
+        [Display(Name = "Nome de Usuário")]
         public string Username { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o E-mail!")]
+        [Display(Name = "E-mail")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a senha!")]
